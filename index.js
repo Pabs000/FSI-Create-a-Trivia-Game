@@ -38,17 +38,18 @@ for(let i = 0; i < questions.length; i++){
         D. Exodus`,
         correctAnswer: "C"
 
-    }
-}
+    {
+
 
 window.alert('Your score is: '+userScore)
 
-}
+    }
+
 
 while (playAgain === true) {
 playGame()
 let userChoice = window.prompt('Would you like to play the game again? Answer yer or no.')
-if(userChoice --- 'yes'){
+if(userChoice --- 'yes')
     playAgain = true 
 }
 else{ 
